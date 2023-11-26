@@ -1,6 +1,6 @@
 {
-  "name": "python-venv",
-  "displayName": "python-venv",
+  "name": "pythonenv",
+  "displayName": "PythonEnv",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -9,13 +9,13 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "author": "Mariia Moklyakova",
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "python-venv.helloWorld",
-        "title": "Hello World"
+        "command": "pythonenv.createPythonEnv",
+        "title": "Create venv"
       }
     ]
   },
@@ -29,14 +29,14 @@
   },
   "devDependencies": {
     "@types/vscode": "^1.84.0",
-    "@types/mocha": "^10.0.3",
+    "@types/mocha": "^10.0.2",
     "@types/node": "18.x",
-    "@typescript-eslint/eslint-plugin": "^6.9.0",
-    "@typescript-eslint/parser": "^6.9.0",
-    "eslint": "^8.52.0",
-    "glob": "^10.3.10",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
+    "glob": "^10.3.3",
     "mocha": "^10.2.0",
     "typescript": "^5.2.2",
-    "@vscode/test-electron": "^2.3.6"
+    "@vscode/test-electron": "^2.3.4"
   }
 }
