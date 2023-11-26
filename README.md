@@ -2,7 +2,7 @@
 ![Image alt](referens.gif)
 ## Использование
 Откройте в Visual Studio Code рабочую папку.
-Запустите debug сщчетанием клавиш Ctrl+Shift+D либо F5.
+Запустите debug сочетанием клавиш Ctrl+Shift+D либо F5.
 Вызовите командную палитру, нажав клавиши Ctrl+Shift+P (Windows/Linux) или Cmd+Shift+P (Mac).
 
 ## Пример
