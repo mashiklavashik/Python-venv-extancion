@@ -1,5 +1,5 @@
 ## Python venv
-
+![Image alt](referens.gif)
 ## Использование
 Откройте в Visual Studio Code рабочую папку.
 Запустите debug сщчетанием клавиш Ctrl+Shift+D либо F5.
